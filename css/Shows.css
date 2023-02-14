@@ -1,0 +1,211 @@
+*{
+    margin: 0px;	
+    padding: 0px;	
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+    
+body{
+    background-color: #878787;
+}
+    
+#contenedor {
+    width: 1900px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+    
+.text{
+    margin: auto;
+    padding: 39px;
+    width: 200px;
+    height: 35px;
+}
+    
+header {
+    height: 111px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    float: right;
+}
+    
+li {
+    display:inline-block;
+    padding: 45px;
+}
+    
+.edicion a {
+    --g: 5px;
+    --b: 3px;
+    --c: #FF0000;
+        
+        
+    padding: calc(var(--g) + var(--b));
+    --_c: #0000 0 25%, var(--c) 0 50%;
+    --_g1: repeating-linear-gradient(360deg ,var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+    background:
+      var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+      var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+    background-size: 200% var(--b),var(--b) 200%;
+    cursor: pointer;
+    filter: grayscale(50%);
+    transition: .3s;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+    
+.edicion{
+    float:right
+}
+.edicion a:hover {
+    --_p: 75%;
+    filter: grayscale(0%);
+}
+    
+#contenido {
+    width: 1900px;
+    height: 2000px;
+    float: left;
+    background: #FCF6EA;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+   
+footer {
+    background: black;
+    height: 180px;
+    margin-top: 2024px;
+    color: #FFFFFF;
+}
+    
+hr {
+    margin-left: 35px;
+    width: 1830px;
+    height: 0px;
+    color: #9C9592
+}
+    
+.copy {
+    float: left;
+    font-size: 10px;
+    color: #9C9592;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+    
+.pp{
+    float: right;
+    font-size: 10px;
+    color: #9C9592;
+    margin-top: 10px;
+    margin-right: 35px;
+    text-decoration:underline;
+}
+.textofooter {
+    width: 200px;
+    height: 35px;
+    display: inline;
+    float: left;
+    padding:55px;
+}
+.contact{
+    display: inline-block;
+    text-decoration: none;
+    float: none;
+    padding-top: 55px;
+    padding-left: 300px;
+}
+    
+.rrss{
+    float: none;
+    display: inline-block;
+    text-align: center;
+    padding-left: 350px;
+}
+.maps {
+    float: right;
+    display: inline;
+    padding: 20px;
+    padding-right: 55px;
+    
+}
+tr td {
+    padding:15px;
+}  
+table {
+    margin-left: 280px;
+}
+
+.f1 img:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+.f2 img:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+.f3 img:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+.f4 img:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+.f5 img:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+.f6 img:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+.f7 img:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+.f8 img:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+.f9 img:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+

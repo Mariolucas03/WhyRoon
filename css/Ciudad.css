@@ -1,0 +1,239 @@
+*{
+    margin: 0px;	
+    padding: 0px;	
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+    
+body{
+    background-color: #878787;
+}
+    
+#contenedor {
+    width: 1900px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+    
+.text{
+    margin: auto;
+    padding: 39px;
+    width: 200px;
+    height: 35px;
+}
+    
+header {
+    height: 111px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    float: right;
+}
+    
+li {
+    display:inline-block;
+    padding: 45px;
+}
+    
+.edicion a {
+    --g: 5px;
+    --b: 3px;
+    --c: #FF0000;
+        
+        
+    padding: calc(var(--g) + var(--b));
+    --_c: #0000 0 25%, var(--c) 0 50%;
+    --_g1: repeating-linear-gradient(360deg ,var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+    background:
+      var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+      var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+    background-size: 200% var(--b),var(--b) 200%;
+    cursor: pointer;
+    filter: grayscale(50%);
+    transition: .3s;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+    
+.edicion{
+    float:right
+}
+.edicion a:hover {
+    --_p: 75%;
+    filter: grayscale(0%);
+}
+    
+#contenido {
+
+    width: 1900px;
+    height: 900px;
+    float: left;
+    background: #878787;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.madrid2{
+    width: 1900px;
+    height: 700px;
+    float: left;
+    background: black;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.barcelona2{
+    width: 1900px;
+    height: 700px;
+    float: right;
+    background: black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+footer {
+    background: black;
+    height: 180px;
+    margin-top: 2367px;
+    color: #FFFFFF;
+}
+    
+hr {
+    margin-left: 35px;
+    width: 1830px;
+    height: 0px;
+    color: #9C9592
+}
+    
+.copy {
+    float: left;
+    font-size: 10px;
+    color: #9C9592;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+    
+.pp{
+    float: right;
+    font-size: 10px;
+    color: #9C9592;
+    margin-top: 10px;
+    margin-right: 35px;
+    text-decoration:underline;
+}
+.textofooter {
+    width: 200px;
+    height: 35px;
+    display: inline;
+    float: left;
+    padding:55px;
+}
+.contact{
+    display: inline-block;
+    text-decoration: none;
+    float: none;
+    padding-top: 55px;
+    padding-left: 300px;
+}
+    
+.rrss{
+    float: none;
+    display: inline-block;
+    text-align: center;
+    padding-left: 350px;
+}
+.maps {
+    float: right;
+    display: inline;
+    padding: 20px;
+    padding-right: 55px;
+    
+}
+.gallery {
+    --z: 100px;
+    --s: 920px;
+    --g: 10px;
+    
+    display: grid;
+    gap: var(--g);
+    width: calc(2*var(--s) + var(--g));
+    grid-auto-flow: column;
+    position: relative;
+    text-align: center;
+}
+.gallery > a img{
+    width: 0;
+    min-width: calc(100% + var(--z)/2);
+    height: var(--s);
+    object-fit: cover;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+    cursor: pointer;
+    transition: .5s;
+}
+  .gallery > a img:hover {
+    width: calc(var(--s)/2);
+}
+.textoencima1 {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: #FFFFFF;
+    font-weight:bold ;
+    font-size: 100px;
+    left: 270px;
+}
+.textoencima2 {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: #FFFFFF;
+    font-weight:bold ;
+    font-size: 100px;
+    left: 1150px;
+}
+.imgmp {
+    padding: 100px;
+}
+.imgmp:hover {
+    width: 450px;
+    height: 550px;
+    transition: 2s;
+}
+.imgmp2 {
+    padding: 100px;
+    padding-top: 190px;
+}
+.imgmp2:hover {
+    width: 450px;
+    height: 450px;
+    transition: 2s;
+}
+.textomd {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 20px;
+    display: inline;
+    text-align: center;
+    padding-top: 150px;
+    width: 700px;
+    padding-left: 300px;
+}
+
+.textobcn {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 20px;
+    display: inline;
+    text-align: center;
+    padding-top: 150px;
+    width: 700px;
+    padding-left: 300px;
+}
